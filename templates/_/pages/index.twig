@@ -1,5 +1,7 @@
 {% extends '_/layouts/default' %}
 
+{% set newsFeed = craft.feedreader.getFeed("http://feeds.bbci.co.uk/news/uk/rss.xml", 43200, true) %}
+
 {% block content %}
     <div class="x_container py-12">
         <h1 class="t_h1 mb-6">Welcome to {{ siteName }}</h1>
@@ -8,6 +10,13 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {% for card in craft.entries.section("news").limit(4).all() %}
                 {% include '_/components/card' %}
+            {% endfor %}
+        </div>
+
+        <h2 class="mb-4 mt-4 text-2xl font-bold">RSS posts</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {% for newsItem in newsFeed.items %}
+                {% include '_/components/rss-card' with {card: newsItem} %}
             {% endfor %}
         </div>
     </div>
