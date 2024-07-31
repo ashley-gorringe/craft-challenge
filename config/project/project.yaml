@@ -1,4 +1,4 @@
-dateModified: 1721815644
+dateModified: 1722421752
 email:
   fromEmail: $SYSTEM_EMAIL_ADDRESS
   fromName: 'Starter Craft'
@@ -83,6 +83,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+  feedreader:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   postmark:
     edition: standard
     enabled: true

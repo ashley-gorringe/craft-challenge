@@ -3,6 +3,7 @@
     "craftcms/ckeditor": "4.1.0",
     "craftcms/cms": "5.2.8",
     "craftcms/postmark": "^3.1",
+    "dodecastudio/craft-feedreader": "2.0.0",
     "nystudio107/craft-retour": "5.0.2",
     "nystudio107/craft-seomatic": "5.1.1",
     "nystudio107/craft-vite": "5.0.0",
