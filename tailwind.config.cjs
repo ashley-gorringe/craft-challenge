@@ -4,4 +4,12 @@ module.exports = {
   plugins: [
     require("tailwindcss-animate"),
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Helvetica', 'Arial', 'sans-serif'],
+        serif: ['Georgia', 'Times', 'serif'],
+      },
+    },
+  },
 }
