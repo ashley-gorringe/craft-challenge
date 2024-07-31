@@ -1,0 +1,65 @@
+color: red
+fieldLayouts:
+  2b56c62e-1dce-4d46-b618-9597e1ad4fcd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4573b5ac-53a7-4e93-b07a-db29aceb1fa9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b88a5624-cf06-4dd4-82b4-d0cb7e3cf1bd # YouTube ID
+            handle: null
+            includeInCards: false
+            instructions: 'Enter the 11 Character ID of the YouTube Video you''d like to embed.'
+            label: 'YouTube Video ID'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 908994bb-5d61-43f4-ad62-37ccada1e1ab
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 807472ff-641a-487b-b8af-e557be65687d
+        userCondition: null
+handle: youtubeVideo
+hasTitleField: false
+icon: video
+name: 'YouTube Video'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

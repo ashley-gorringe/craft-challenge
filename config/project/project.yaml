@@ -1,4 +1,4 @@
-dateModified: 1722421752
+dateModified: 1722423660
 email:
   fromEmail: $SYSTEM_EMAIL_ADDRESS
   fromName: 'Starter Craft'
@@ -63,11 +63,13 @@ meta:
     7197aa2b-e65a-448d-89ca-71d1b98bdf2d: Images # Images
     45022a5c-65d7-451b-8c75-7227d05f88ab: Images # Images
     702527bf-0a0e-4d70-a788-8c12968cb11c: 'Standard Page - Default' # Standard Page - Default
+    b88a5624-cf06-4dd4-82b4-d0cb7e3cf1bd: 'YouTube ID' # YouTube ID
     bbdb3491-25e4-46d9-b775-74a82d472f3f: Copy # Copy
     c3deb65d-6a5c-44aa-840e-0850d850f162: Simple # Simple
     d2537a47-2db1-49d2-84e7-457e5e655a4a: News # News
     e7732226-0e30-4e0a-b9de-4f50b1b2d59e: 'Public Schema' # Public Schema
     ebaa4706-86be-4e14-98e1-d551c3d6bade: 'Standard Copy' # Standard Copy
+    ebedb47f-9a91-431c-a7a3-8a3301e6d869: 'YouTube Video' # YouTube Video
     f3f7b7c5-a2f2-4503-85a2-81709f0a8ce8: 'Main Navigation' # Main Navigation
     f6c0b10e-1131-49f6-90c8-cb37bb7192f9: Full # Full
 plugins:
